@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Samarth Sahyadri Multi-specialty Hospital, Ghoti</title>
+  <meta name="description" content="Book an appointment or contact Samarth Sahyadri Hospital in Ghoti, Nashik. Available 24/7 for emergencies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pages.css" />
+</head>
+<body>
+
+  <div id="nav-root"></div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <h1>Get in Touch</h1>
+      <p class="section-subtitle">We are here to assist you with your healthcare needs. Book an appointment online, call us for emergencies, or visit our facility in Ghoti, Igatpuri.</p>
+    </div>
+  </section>
+
+  <!-- EMERGENCY STRIP -->
+  <section class="emergency-strip">
+    <div class="emergency-strip-left">
+      <div class="emergency-strip-icon"><i class="fa-solid fa-truck-medical"></i></div>
+      <div class="emergency-strip-text">
+        <h4>24/7 Emergency Services</h4>
+        <p>Our trauma and critical care units are ready to respond to any medical emergency.</p>
+      </div>
+    </div>
+    <a href="tel:+912553250108" class="btn-dial"><i class="fa-solid fa-phone"></i> Dial +91 2553 250 108</a>
+  </section>
+
+  <!-- CONTACT FORM + INFO -->
+  <section class="contact-section">
+    <div class="contact-grid">
+
+      <!-- LEFT: Contact Info -->
+      <div>
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="contact-detail-text">
+              <h4>Our Location</h4>
+              <p>Samarth Sahyadri Multispeciality Hospital,<br>Mumbai – Agra National Hwy,<br>Ghoti Budruk, Igatpuri,<br>Maharashtra 422402</p>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="contact-detail-text">
+              <h4>Phone Numbers</h4>
+              <p>General Inquiry: <a href="tel:+912553250100">+91 2553 250 100</a><br>
+              Appointments: <a href="tel:+912553250100">+91 2553 250 100</a></p>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-detail-text">
+              <h4>Email Address</h4>
+              <a href="mailto:info@samarthsahyadri.com">info@samarthsahyadri.com</a>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fa-regular fa-clock"></i></div>
+            <div class="contact-detail-text">
+              <h4>Visiting Hours</h4>
+              <p>Morning: 10:00 AM – 1:00 PM<br>Evening: 5:00 PM – 8:00 PM<br><strong style="color:var(--red)">Emergency: 24×7</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="contact-map">
+          <a href="https://maps.app.goo.gl/d9Z54G5uH3HnJgZ7A" target="_blank" style="display:block;position:relative">
+            <img src="https://maps.googleapis.com/maps/api/staticmap?center=19.8456,73.6381&zoom=15&size=600x300&maptype=roadmap&markers=color:red%7C19.8456,73.6381&key=placeholder" alt="Hospital Location Map" style="width:100%;height:200px;object-fit:cover;background:var(--bg-light)" onerror="this.style.background='var(--bg-light)';this.alt='View on Google Maps'" />
+            <div style="position:absolute;bottom:0;left:0;right:0;background:var(--white);padding:0.7rem 1rem;display:flex;align-items:center;justify-content:space-between;font-size:0.82rem;font-weight:600;color:var(--navy)">
+              <span>View on Google Maps</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- RIGHT: Form -->
+      <div class="contact-form-wrapper">
+        <h3>Book an Appointment</h3>
+        <p>Fill out the form below and our front desk will confirm your appointment shortly.</p>
+
+        <form id="appointmentForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" placeholder="e.g. Rahul" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" placeholder="e.g. Sharma" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" placeholder="+91" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="your@email.com" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="department">Department/Specialty *</label>
+              <select id="department" required>
+                <option value="">Select Department</option>
+                <option value="medicine">General Medicine</option>
+                <option value="surgery">General Surgery</option>
+                <option value="ortho">Orthopedics</option>
+                <option value="gyno">Gynecology & Obstetrics</option>
+                <option value="paeds">Pediatrics</option>
+                <option value="nephro">Nephrology</option>
+                <option value="urology">Urology</option>
+                <option value="ent">ENT</option>
+                <option value="emergency">Emergency Care</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="prefDate">Preferred Date *</label>
+              <input type="date" id="prefDate" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Brief Description of Issue (Optional)</label>
+            <textarea id="message" rows="4" placeholder="Please briefly describe your symptoms or reason for visit..."></textarea>
+          </div>
+          <div class="form-submit-row">
+            <p>By booking, you agree to our <a href="#">Privacy Policy</a> regarding patient data.</p>
+            <button type="submit" class="btn-red">Submit Request <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </form>
+
+        <div class="form-success" id="formSuccess">
+          <i class="fa-solid fa-circle-check"></i>
+          <h3>Enquiry Received!</h3>
+          <p>Thank you for reaching out to Samarth Sahyadri Hospital. Our team will contact you within 4–6 working hours to confirm your appointment.</p>
+          <p style="margin-top:0.5rem;font-size:0.85rem">For urgent matters, please call <a href="tel:+912553250100" style="color:var(--red);font-weight:700">+91 2553 250 100</a>.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <section class="enquiry-strip">
+    <div class="reveal">
+      <h2>Need Immediate Help?</h2>
+      <p>Our emergency team is available around the clock.</p>
+    </div>
+    <div class="enquiry-strip-actions reveal reveal-delay-1">
+      <a href="tel:+912553250108" class="btn-red"><i class="fa-solid fa-phone-volume"></i> Emergency Call</a>
+      <a href="https://wa.me/912553250100" target="_blank" class="btn-secondary" style="color:var(--white);border-color:rgba(255,255,255,0.3)"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+    </div>
+  </section>
+
+  <div id="footer-root"></div>
+
+  <script type="module">
+    import { renderNav, renderFooter } from './components.js';
+    document.getElementById('nav-root').innerHTML = renderNav('contact.html');
+    document.getElementById('footer-root').innerHTML = renderFooter();
+    import('./main.js');
+
+    // Form handling
+    document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      this.style.display = 'none';
+      document.getElementById('formSuccess').classList.add('show');
+    });
+  </script>
+</body>
+</html>
